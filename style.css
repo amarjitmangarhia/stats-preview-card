@@ -20,11 +20,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
 
 .left h2,
 .numbers {
@@ -49,6 +49,7 @@ span {
   width: 800px;
   border-radius: 8px;
   height: 350px;
+  justify-content: space-between;
 }
 
 .left {
@@ -64,10 +65,12 @@ span {
 .left h2 {
   font-size: 25px;
   color: hsl(0, 0%, 100%);
+  line-height: 30px;
 }
 
 .about p {
   color: white;
+  margin-top: 20px;
   margin-bottom: 40px;
   line-height: 20px;
   font-size: 15px;
@@ -83,7 +86,7 @@ span {
 
 .numbers {
   font-weight: bold;
-  margin-bottom: -10px;
+  margin-bottom: 7px;
   color: hsla(0, 0%, 100%, 0.75);
 }
 
@@ -143,14 +146,17 @@ span {
   }
 
   .left h2 {
+    margin-top: 20px;
     font-size: 30px;
     color: hsl(0, 0%, 100%);
+    line-height: 33px;
   }
 
   .about p {
     color: white;
+    margin-top: 20px;
     margin-bottom: 40px;
-    line-height: 25px;
+    line-height: 27px;
     font-size: 20px;
     color: hsla(0, 0%, 100%, 0.75);
   }
@@ -161,17 +167,19 @@ span {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: -20px;
+    margin-top: 10px;
     font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .numbers {
     font-weight: bold;
-    margin-bottom: -10px;
     color: hsla(0, 0%, 100%, 0.75);
   }
 
   .c-name {
+    margin-bottom: 25px;
+
     color: hsla(0, 0%, 100%, 0.6);
   }
 
@@ -186,8 +194,9 @@ span {
     background-image: url(./images/image-header-mobile.jpg);
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* height: 300px; */
     opacity: 1;
+    margin-bottom: -4px;
   }
 }
